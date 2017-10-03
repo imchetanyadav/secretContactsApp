@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_list">
+
+    </ListView>
+
+    <Button
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:id="@+id/main_new_contact"
+        android:text="+"
+        android:textSize="35sp"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin = "15dp"
+        />
+
+</RelativeLayout>
